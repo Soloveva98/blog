@@ -4,8 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
-$bg: url('/blog_page/img/background.png') 0 0/100% 100% no-repeat;
-
 
 .wrapper{
 	max-width: 1440px;
@@ -13,7 +11,7 @@ $bg: url('/blog_page/img/background.png') 0 0/100% 100% no-repeat;
 }
 
 .blogs{
-	background: $bg;
+	background: url('/img/background.png') 0 0/100% 100% no-repeat;;
 	&__container{
 		max-width: 800px;
 		padding: 60px 10px 100px;
